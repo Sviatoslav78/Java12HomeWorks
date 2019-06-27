@@ -3,11 +3,11 @@ package com.java12.ConsoleControllers.PetLogic;
 import com.java12.ConsoleControllers.OrderLogic.OrderConsole;
 import com.java12.ConsoleInterface;
 import com.java12.ConstUrlsInterface;
-import com.java12.entity.Pet.Category;
-import com.java12.entity.Pet.Pet;
-import com.java12.entity.Pet.PetStatus;
-import com.java12.entity.Pet.Tag;
-import com.java12.service.PetService;
+import com.java12.Entity.Pet.Category;
+import com.java12.Entity.Pet.Pet;
+import com.java12.Entity.Pet.PetStatus;
+import com.java12.Entity.Pet.Tag;
+import com.java12.Service.PetService;
 
 import java.io.File;
 import java.io.IOException;

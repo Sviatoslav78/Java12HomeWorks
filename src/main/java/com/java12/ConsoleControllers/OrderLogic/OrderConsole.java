@@ -3,9 +3,9 @@ package com.java12.ConsoleControllers.OrderLogic;
 import com.java12.ConsoleControllers.PetLogic.PetConsole;
 import com.java12.ConsoleInterface;
 import com.java12.ConstUrlsInterface;
-import com.java12.entity.Order.Order;
-import com.java12.entity.Order.OrderStatus;
-import com.java12.service.OrderService;
+import com.java12.Entity.Order.Order;
+import com.java12.Entity.Order.OrderStatus;
+import com.java12.Service.OrderService;
 
 import java.io.IOException;
 

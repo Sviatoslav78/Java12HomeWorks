@@ -1,8 +1,8 @@
-package com.java12.service;
+package com.java12.Service;
 
 import com.google.gson.Gson;
 import com.java12.ConstUrlsInterface;
-import com.java12.entity.Order.Order;
+import com.java12.Entity.Order.Order;
 import org.jsoup.Connection;
 import org.jsoup.HttpStatusException;
 import org.jsoup.Jsoup;

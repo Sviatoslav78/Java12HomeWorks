@@ -1,4 +1,4 @@
-package com.java12.entity.Order;
+package com.java12.Entity.Order;
 
 public enum OrderStatus {
     placed("Order is placed"),

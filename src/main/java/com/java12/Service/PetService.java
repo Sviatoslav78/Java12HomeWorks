@@ -1,9 +1,9 @@
-package com.java12.service;
+package com.java12.Service;
 
 import com.google.gson.Gson;
 import com.java12.ConstUrlsInterface;
-import com.java12.entity.Pet.Pet;
-import com.java12.entity.Pet.PetStatus;
+import com.java12.Entity.Pet.Pet;
+import com.java12.Entity.Pet.PetStatus;
 import org.jsoup.Connection;
 import org.jsoup.HttpStatusException;
 import org.jsoup.Jsoup;
@@ -97,7 +97,7 @@ public class PetService implements ConstUrlsInterface {
         return infoType + "Pet " + id + " just been deleted";
     }
 
-    /* methods for service*/
+    /* methods for Service*/
 
     private String postAndPutMethodForPet(String petJson, Connection.Method method) throws IOException {
         String answer = null;

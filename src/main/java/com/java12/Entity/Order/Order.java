@@ -1,4 +1,4 @@
-package com.java12.entity.Order;
+package com.java12.Entity.Order;
 
 import lombok.Builder;
 import lombok.Data;

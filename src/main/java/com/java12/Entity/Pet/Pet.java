@@ -1,4 +1,4 @@
-package com.java12.entity.Pet;
+package com.java12.Entity.Pet;
 
 
 import lombok.Builder;

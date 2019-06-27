@@ -1,11 +1,12 @@
-package com.java12.entity.Pet;
+package com.java12.Entity.Pet;
 
 import lombok.Builder;
 import lombok.Data;
 
 @Data
 @Builder
-public class Tag {
+public class Category {
     private int id;
     private String name;
+
 }
