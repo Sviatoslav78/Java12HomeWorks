@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+        <property name="connection.characterEncoding">UTF-8</property>
+        <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/crm?useUnicode=true&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">21101967VfVf</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</property>
+
+        <property name="hibernate.cache.region.factory_class">org.hibernate.cache.ehcache.EhCacheRegionFactory</property>
+        <property name="hibernate.cache.use_second_level_cache">true</property>
+        <property name="hibernate.cache.use_query_cache">true</property>
+
+        <property name="hibernate.hbm2ddl.auto">update</property>
+
+        <mapping class="com.java12.HibernateHome.Entity.Developer"/>
+        <mapping class="com.java12.HibernateHome.Entity.Customer"/>
+        <mapping class="com.java12.HibernateHome.Entity.Company"/>
+        <mapping class="com.java12.HibernateHome.Entity.SkillEnum.ProgrammingLanguage"/>
+        <mapping class="com.java12.HibernateHome.Entity.SkillEnum.SkillLevel"/>
+        <mapping class="com.java12.HibernateHome.Entity.Skill"/>
+        <mapping class="com.java12.HibernateHome.Entity.Project"/>
+    </session-factory>
+</hibernate-configuration>
