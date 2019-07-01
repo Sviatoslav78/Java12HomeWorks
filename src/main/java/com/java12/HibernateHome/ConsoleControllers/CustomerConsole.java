@@ -8,7 +8,7 @@ import com.java12.HibernateHome.Entity.Customer;
 import com.java12.HibernateHome.Entity.Project;
 
 import com.java12.HibernateHome.Service.CustomerService;
-
+import com.java12.HibernateHome.Service.DeveloperService;
 import com.java12.HibernateHome.Service.ProjectService;
 
 public class CustomerConsole implements ConsoleInterface {

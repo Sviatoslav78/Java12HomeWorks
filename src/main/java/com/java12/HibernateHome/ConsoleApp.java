@@ -48,6 +48,7 @@ public class ConsoleApp {
 
     }
 
+
     public void helpCommand() {
         for (CommandsBasic comm : CommandsBasic.values()) {
             if (!comm.getDescription().equals("unknown")) {

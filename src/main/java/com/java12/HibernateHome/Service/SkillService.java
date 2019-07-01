@@ -41,8 +41,7 @@ public class SkillService implements ServiceInterface<Skill> {
 
     @Override
     public String deleteById(long id) {
-        skillDao.deleteById(id);
-        return infoType + "skill with id = " + id + " just been deleted";
+        return errorType + " incorrect access rights";
     }
 
     @Override
