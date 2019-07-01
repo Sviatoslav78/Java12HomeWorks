@@ -76,4 +76,12 @@ public class Developer {
                 ", SKILLS: " + Arrays.toString(skillSet.toArray()) +
                 ';';
     }
+
+    public void addProject(Project project) {
+        projects.add(project);
+    }
+
+    public void addSkill(Skill skill) {
+        skillSet.add(skill);
+    }
 }

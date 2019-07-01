@@ -3,10 +3,7 @@ package com.java12.HibernateHome;
 
 import com.java12.HibernateHome.Commands.CommandUtils;
 import com.java12.HibernateHome.Commands.CommandsBasic;
-import com.java12.HibernateHome.ConsoleControllers.CompanyConsole;
-import com.java12.HibernateHome.ConsoleControllers.CustomerConsole;
-import com.java12.HibernateHome.ConsoleControllers.ProjectConsole;
-import com.java12.HibernateHome.ConsoleControllers.SkillConsole;
+import com.java12.HibernateHome.ConsoleControllers.*;
 
 import java.util.Scanner;
 
@@ -41,6 +38,9 @@ public class ConsoleApp {
                     break;
                 case COMPANY:
                     new CompanyConsole().execute();
+                    break;
+                case DEVELOPER:
+                    new DeveloperConsole().execute();
                     break;
             }
         }
